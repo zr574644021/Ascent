@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Ascent</display-name>
+
+  <!-- RegiterServlet-->
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.zou.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--LoginServlet-->
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.zou.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--UserServlet-->
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.zou.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--ProductServlet-->
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.zou.servlet.ProductServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--DeUserServlet-->
+  <servlet>
+    <servlet-name>DeUserServlet</servlet-name>
+    <servlet-class>com.zou.servlet.DeUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeUserServlet</servlet-name>
+    <url-pattern>/DeUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--DeProServlet-->
+  <servlet>
+    <servlet-name>DeProServlet</servlet-name>
+    <servlet-class>com.zou.servlet.DeProServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeProServlet</servlet-name>
+    <url-pattern>/DeProServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--UpdateUserServlet-->
+  <servlet>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <servlet-class>com.zou.servlet.UpdateUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateUserServlet</servlet-name>
+    <url-pattern>/UpdateUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--UpdateProServlet-->
+  <servlet>
+    <servlet-name>UpdateProServlet</servlet-name>
+    <servlet-class>com.zou.servlet.UpdateProServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProServlet</servlet-name>
+    <url-pattern>/UpdateProServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--AddProServlet-->
+  <servlet>
+    <servlet-name>AddProServlet</servlet-name>
+    <servlet-class>com.zou.servlet.AddProServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProServlet</servlet-name>
+    <url-pattern>/AddProServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--ShopServlet-->
+  <servlet>
+    <servlet-name>ShopServlet</servlet-name>
+    <servlet-class>com.zou.servlet.ShopServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopServlet</servlet-name>
+    <url-pattern>/ShopServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--ShopCarServlet-->
+  <servlet>
+    <servlet-name>ShopCarServlet</servlet-name>
+    <servlet-class>com.zou.servlet.ShopCarServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopCarServlet</servlet-name>
+    <url-pattern>/ShopCarServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--OrderServlet-->
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.zou.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--OrderManageServlet-->
+  <servlet>
+    <servlet-name>OrderManageServlet</servlet-name>
+    <servlet-class>com.zou.servlet.OrderManageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderManageServlet</servlet-name>
+    <url-pattern>/OrderManageServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--OrderManageServlet-->
+  <servlet>
+    <servlet-name>OrderUserServlet</servlet-name>
+    <servlet-class>com.zou.servlet.OrderUserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderUserServlet</servlet-name>
+    <url-pattern>/OrderUserServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--DealOrderServlet-->
+  <servlet>
+    <servlet-name>DealOrderServlet</servlet-name>
+    <servlet-class>com.zou.servlet.DealOrderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DealOrderServlet</servlet-name>
+    <url-pattern>/DealOrderServlet</url-pattern>
+  </servlet-mapping>
+
+  <!--UpPassServlet-->
+  <servlet>
+    <servlet-name>UpPassServlet</servlet-name>
+    <servlet-class>com.zou.servlet.UpPassServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpPassServlet</servlet-name>
+    <url-pattern>/UpPassServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
